@@ -21,6 +21,7 @@ public class Prueba extends JFrame implements ActionListener {
 	private JTextArea textArea;
 	private JButton btnNewButton;
 	private JButton btnNewButton_1;
+	private JButton btnNewButton_2;
 
 	/**
 	 * Launch the application.
@@ -70,6 +71,10 @@ public class Prueba extends JFrame implements ActionListener {
 		btnNewButton_1 = new JButton("New button");
 		btnNewButton_1.setBounds(321, 26, 89, 23);
 		contentPane.add(btnNewButton_1);
+		
+		btnNewButton_2 = new JButton("New button");
+		btnNewButton_2.setBounds(335, 89, 89, 23);
+		contentPane.add(btnNewButton_2);
 	}
 	public void actionPerformed(ActionEvent arg0) {
 		if (arg0.getSource() == btnNewButton) {
