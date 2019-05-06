@@ -53,7 +53,7 @@ public class Prueba extends JFrame implements ActionListener {
 		contentPane.add(lblNewLabel);
 		
 		textField = new JTextField();
-		textField.setBounds(119, 27, 86, 20);
+		textField.setBounds(101, 27, 86, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
@@ -63,7 +63,7 @@ public class Prueba extends JFrame implements ActionListener {
 		
 		btnNewButton = new JButton("New button");
 		btnNewButton.addActionListener(this);
-		btnNewButton.setBounds(236, 26, 89, 23);
+		btnNewButton.setBounds(197, 26, 89, 23);
 		contentPane.add(btnNewButton);
 	}
 	public void actionPerformed(ActionEvent arg0) {
